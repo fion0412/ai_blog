@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Smartech AI 出海工具库，由 Smartech AI Academy 为创作者与独立创业者精选 AI 视频、建站、营销、电商和效率工具。" />
+    <meta name="theme-color" content="#17191f" />
+    <title>Smartech AI 出海工具库</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <aside class="sidebar" id="sidebar" aria-label="工具分类">
+      <a class="brand" href="#top" aria-label="Smartech AI 首页">
+        <span class="brand-mark" aria-hidden="true"><img src="./assets/smartech-ai-mark.png" alt="" /></span>
+        <span><strong>Smartech AI</strong><small>AI Academy</small></span>
+      </a>
+      <nav class="side-nav" id="sideNav">
+        <a class="active" href="#featured" data-category="all"><span class="nav-icon">★</span>精选工具</a>
+        <a href="#ai-video" data-category="AI 视频工具"><span class="nav-icon">▶</span>AI 视频工具</a>
+        <a href="#youtube" data-category="YouTube"><span class="nav-icon">▣</span>YouTube 增长</a>
+        <a href="#hosting" data-category="主机服务器"><span class="nav-icon">◎</span>主机服务器</a>
+        <a href="#ecommerce" data-category="跨境电商"><span class="nav-icon">⌁</span>跨境电商</a>
+        <a href="#affiliate" data-category="联盟营销"><span class="nav-icon">↗</span>联盟营销</a>
+        <a href="#email" data-category="邮件营销"><span class="nav-icon">✉</span>邮件营销</a>
+        <a href="#design" data-category="设计素材"><span class="nav-icon">◉</span>设计素材</a>
+        <a href="#analytics" data-category="数据分析"><span class="nav-icon">▥</span>数据分析</a>
+      </nav>
+      <div class="sidebar-note"><span class="tiny-plane">➤</span><p>好工具，<br />让全球机会更近一步。</p></div>
+      <div class="sidebar-footer">Smartech AI · 2026</div>
+    </aside>
+
+    <div class="page-shell" id="top">
+      <header class="topbar">
+        <button class="mobile-menu" id="menuButton" aria-label="打开分类菜单" aria-expanded="false">☰</button>
+        <nav class="top-nav" aria-label="主导航">
+          <a class="active" href="#featured">工具导航</a><a href="./courses.html">我的课程</a><a href="#featured">选品指南</a><a href="./courses/affiliate-ai-content.html">联盟营销</a><a href="#about">关于我们</a>
+        </nav>
+        <div class="top-actions">
+          <button class="search-trigger" id="searchTrigger" aria-label="搜索工具"><span aria-hidden="true">⌕</span><span>搜索工具、用途或场景</span><kbd>⌘ K</kbd></button>
+          <button class="icon-button" id="themeToggle" aria-label="切换深浅主题">☾</button>
+          <a class="outline-button" href="#newsletter">订阅精选</a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero-wrap" aria-labelledby="hero-title">
+          <div class="hero-card">
+            <div class="hero-copy">
+              <h1 id="hero-title">网上赚钱工具导航</h1>
+              <p>精选全球优质的 AI、内容创作、建站、营销与电商工具，帮你更快启动、更稳增长。</p>
+              <form class="hero-search" id="heroSearch" role="search">
+                <label class="sr-only" for="heroSearchInput">搜索工具</label><span aria-hidden="true">⌕</span>
+                <input id="heroSearchInput" type="search" placeholder="搜索工具、用途或场景" autocomplete="off" />
+                <button type="submit">浏览精选工具 <span aria-hidden="true">→</span></button>
+              </form>
+              <div class="quick-links" aria-label="热门搜索"><span>热门：</span><button type="button" data-query="AI 视频">AI 视频</button><button type="button" data-query="网站">网站搭建</button><button type="button" data-query="邮件">邮件营销</button></div>
+            </div>
+            <img class="hero-art hero-portrait" src="./assets/fion-hero.png" alt="Fion Tan 在办公桌前介绍网上赚钱工具" />
+          </div>
+          <aside class="trending" aria-labelledby="trending-title"><div class="panel-heading"><h2 id="trending-title">本周热门</h2><a href="#featured">查看全部 <span aria-hidden="true">→</span></a></div><ol id="trendingList"></ol></aside>
+        </section>
+
+        <section class="tool-section featured-section" id="featured">
+          <div class="section-heading-row"><div><h2>精选工具</h2><p>我们实际研究过、值得你优先了解的出海工具。</p></div><span class="result-count" id="resultCount">0 个工具</span></div>
+          <div class="filter-row" id="categoryFilters" aria-label="工具分类筛选"></div><div class="tool-grid" id="featuredGrid"></div>
+          <div class="empty-state" id="emptyState" hidden><strong>没有找到匹配的工具</strong><p>试试更短的关键词，或清除当前筛选。</p><button class="text-button" id="clearFilters" type="button">清除筛选</button></div>
+        </section>
+
+        <section class="guide-strip" id="guides"><div><strong>今日新文章</strong><span>5种AI视频赚钱方法！新手也能在 Fiverr 接单赚美金副业项目。</span></div><a href="./courses/ai-fiverr-video.html">阅读完整指南 <span aria-hidden="true">→</span></a></section>
+        <section class="guide-strip"><div><strong>联盟营销第一课</strong><span>普通人怎么在网上赚钱？用 AI 做内容，靠联盟营销赚佣金。</span></div><a href="./courses/affiliate-ai-content.html">阅读完整教程 <span aria-hidden="true">→</span></a></section>
+        <div id="categorySections"></div>
+
+        <section class="newsletter" id="newsletter">
+          <div class="mail-illustration" aria-hidden="true">✉</div><div><h2>每周一封，精选真正值得用的工具</h2><p>不追热点，不发垃圾邮件，只分享经过筛选的工具与实战方法。</p></div>
+          <form id="newsletterForm"><label class="sr-only" for="emailInput">邮箱地址</label><input id="emailInput" type="email" placeholder="请输入你的邮箱地址" required /><button type="submit">免费订阅</button></form>
+          <p class="form-message" id="newsletterMessage" role="status"></p>
+        </section>
+      </main>
+
+      <footer class="site-footer" id="about">
+        <div class="footer-brand"><a class="brand brand-dark" href="#top"><span class="brand-mark" aria-hidden="true"><img src="./assets/smartech-ai-mark.png" alt="" /></span><span><strong>Smartech AI</strong><small>AI Academy</small></span></a><p>发现全球优质工具，助力每一位创作者走向更大的世界。</p></div>
+        <div class="footer-links"><strong>快速链接</strong><a href="./courses.html">我的课程</a><a href="#about">关于我们</a><a href="mailto:hello@example.com">联系我们</a><a href="#privacy">隐私政策</a></div>
+        <div class="footer-links"><strong>热门分类</strong><a href="./courses/ai-fiverr-video.html">AI 视频赚钱指南</a><a href="./courses/affiliate-ai-content.html">联盟营销教程</a><a href="#ai-video">AI 视频工具</a><a href="#hosting">主机服务器</a></div>
+        <div class="footer-disclosure" id="privacy"><strong>联盟披露</strong><p>部分链接在替换为你的联盟链接后，可能为网站带来佣金，但不会增加用户的购买价格。请只推荐你真正认可的产品，并在上线前更新隐私政策和联盟免责声明。</p></div>
+        <div class="copyright">© 2026 Smartech AI Academy。保留所有权利。</div>
+      </footer>
+    </div>
+
+    <div class="search-dialog" id="searchDialog" role="dialog" aria-modal="true" aria-labelledby="searchDialogTitle" hidden><div class="dialog-backdrop" data-close-dialog></div><div class="search-panel"><div class="search-panel-head"><h2 id="searchDialogTitle">搜索工具</h2><button type="button" aria-label="关闭搜索" data-close-dialog>×</button></div><label class="dialog-search"><span aria-hidden="true">⌕</span><input id="dialogSearchInput" type="search" placeholder="输入工具名、用途或场景" autocomplete="off" /></label><div class="dialog-results" id="dialogResults"></div></div></div>
+    <div class="tool-dialog" id="toolDialog" role="dialog" aria-modal="true" aria-labelledby="toolDialogTitle" hidden><div class="dialog-backdrop" data-close-tool></div><article class="tool-detail" id="toolDetail"></article></div>
+    <button class="back-to-top" id="backToTop" type="button" aria-label="返回顶部">↑</button>
+    <script src="./app.js"></script>
+  </body>
+</html>
