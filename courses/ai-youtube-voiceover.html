@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI配音怎么做？新手7步YouTube旁白教程｜Smartech AI Academy</title>
+  <meta name="description" content="Fion Tan 分享 AI 配音 7 步新手流程：声音授权、口播脚本、发音表、分段生成、混音、字幕与 YouTube 披露，附 6 组原创提示词。" />
+  <meta name="keywords" content="AI配音,AI旁白,YouTube配音,AI声音克隆,文字转语音,AI视频教程,Smartech AI Academy,Fion Tan" />
+  <meta name="author" content="Fion Tan" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://fion0412.github.io/ai_blog/courses/ai-youtube-voiceover.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:site_name" content="Smartech AI Academy" />
+  <meta property="og:title" content="AI配音怎么做？新手制作YouTube旁白的7步流程" />
+  <meta property="og:description" content="从声音授权到发布披露，建立自然、可核验、能重复执行的 AI 旁白工作流，附 6 组原创提示词。" />
+  <meta property="og:url" content="https://fion0412.github.io/ai_blog/courses/ai-youtube-voiceover.html" />
+  <meta property="og:image" content="https://fion0412.github.io/ai_blog/assets/fion-hero.png" />
+  <meta property="article:author" content="Fion Tan" />
+  <meta property="article:published_time" content="2026-10-29T09:00:00+08:00" />
+  <meta property="article:modified_time" content="2026-10-29T09:00:00+08:00" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AI配音怎么做？新手7步YouTube旁白教程" />
+  <meta name="twitter:description" content="确认声音权利、改写口播、校准发音、分段生成并完成披露。" />
+  <meta name="twitter:image" content="https://fion0412.github.io/ai_blog/assets/fion-hero.png" />
+  <link rel="stylesheet" href="./course.css" />
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {"@type":"Organization","@id":"https://fion0412.github.io/ai_blog/#organization","name":"Smartech AI Academy","url":"https://fion0412.github.io/ai_blog/","logo":{"@type":"ImageObject","url":"https://fion0412.github.io/ai_blog/assets/smartech-ai-mark.png"}},
+      {"@type":"Person","@id":"https://fion0412.github.io/ai_blog/#fion-tan","name":"Fion Tan","worksFor":{"@id":"https://fion0412.github.io/ai_blog/#organization"}},
+      {"@type":"BlogPosting","@id":"https://fion0412.github.io/ai_blog/courses/ai-youtube-voiceover.html#article","headline":"AI配音怎么做？新手制作YouTube旁白的7步流程","description":"面向中文新手的 AI 配音与 YouTube 旁白教程，包含声音授权、口播脚本、发音、分段生成、混音、字幕与披露。","inLanguage":"zh-CN","mainEntityOfPage":"https://fion0412.github.io/ai_blog/courses/ai-youtube-voiceover.html","url":"https://fion0412.github.io/ai_blog/courses/ai-youtube-voiceover.html","image":"https://fion0412.github.io/ai_blog/assets/fion-hero.png","author":{"@id":"https://fion0412.github.io/ai_blog/#fion-tan"},"publisher":{"@id":"https://fion0412.github.io/ai_blog/#organization"},"datePublished":"2026-10-29T09:00:00+08:00","dateModified":"2026-10-29T09:00:00+08:00","keywords":["AI配音","AI旁白","YouTube配音","AI声音克隆","文字转语音"]},
+      {"@type":"ItemList","name":"AI 配音制作所需工具类别","itemListElement":[{"@type":"ListItem","position":1,"name":"脚本与事实核验"},{"@type":"ListItem","position":2,"name":"文字转语音或本人声音克隆"},{"@type":"ListItem","position":3,"name":"音频剪辑、降噪与字幕"},{"@type":"ListItem","position":4,"name":"授权记录与发布披露"}]},
+      {"@type":"HowTo","name":"制作 YouTube AI 旁白的 7 个步骤","description":"从定义旁白任务到发布披露与复盘的完整流程。","totalTime":"P7D","step":[
+        {"@type":"HowToStep","position":1,"name":"定义旁白任务","text":"明确观众、视频类型、情绪、语速、时长和旁白作用。"},
+        {"@type":"HowToStep","position":2,"name":"确认声音权利","text":"选择本人录音、许可清楚的声音库或经过验证的本人声音克隆。"},
+        {"@type":"HowToStep","position":3,"name":"改写口播脚本","text":"把书面文字拆成短句，加入停顿、强调和画面提示。"},
+        {"@type":"HowToStep","position":4,"name":"建立发音表","text":"统一人名、品牌、缩写、数字、单位与多音字的读法。"},
+        {"@type":"HowToStep","position":5,"name":"制作并比较样音","text":"用同一段短稿测试声音、语速和设置，再分段生成。"},
+        {"@type":"HowToStep","position":6,"name":"剪辑、混音与字幕","text":"修正停顿和音量，校对字幕，并使用权利清楚的音乐与音效。"},
+        {"@type":"HowToStep","position":7,"name":"质检、披露与复盘","text":"完成人工试听、权利检查和平台披露，并记录可复用设置。"}
+      ]},
+      {"@type":"FAQPage","mainEntity":[
+        {"@type":"Question","name":"YouTube 视频用了 AI 配音一定要披露吗？","acceptedAnswer":{"@type":"Answer","text":"不一定。YouTube 当前示例把克隆本人声音用于旁白列为通常不必披露的制作辅助；但如果声音让真实人物看似说了未说过的话，或其他现实感 AI 内容可能误导观众，就应披露。"}},
+        {"@type":"Question","name":"可以克隆名人或其他创作者的声音吗？","acceptedAnswer":{"@type":"Answer","text":"不应这样做。公开音频不等于获得克隆、商业使用或代言授权；YouTube 也禁止会误导观众的未经授权冒充。"}},
+        {"@type":"Question","name":"AI 配音视频可以申请 YouTube 盈利吗？","acceptedAnswer":{"@type":"Answer","text":"使用 AI 工具本身不等于不能盈利，但频道内容仍要原创、真实并提供明显价值；批量、重复、模板化且缺少原创判断的内容可能不符合政策。"}},
+        {"@type":"Question","name":"怎样让 AI 旁白听起来更自然？","acceptedAnswer":{"@type":"Answer","text":"先把脚本改成短句和口语，统一发音，用同一段样稿测试语速与稳定性，再分段生成并由人完整试听。克隆时应优先使用单人、清晰且风格一致的录音。"}},
+        {"@type":"Question","name":"免费 AI 声音可以直接用于商业视频吗？","acceptedAnswer":{"@type":"Answer","text":"不能只凭免费就判断可商用。应查看声音来源、工具套餐、声音库条款、署名要求、地区与用途限制，并保存使用时的许可记录。"}}
+      ]}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="course-header">
+    <a class="course-brand" href="../index.html" aria-label="返回 Smartech AI 首页"><span class="brand-plane" aria-hidden="true"><img src="../assets/smartech-ai-mark.png" alt="" /></span><span><strong>Smartech AI</strong><small>Academy</small></span></a>
+    <button class="mobile-nav-button" id="courseMenuButton" type="button" aria-label="打开导航" aria-expanded="false">☰</button>
+    <nav class="course-nav" id="courseNav" aria-label="文章导航"><a href="../index.html">工具导航</a><a href="../courses.html">我的课程</a><a href="#direct-answer" class="active">AI 配音</a><a href="#faq">常见问题</a></nav>
+    <button class="theme-toggle" id="courseThemeToggle" type="button" aria-label="切换深浅主题">☾</button>
+  </header>
+  <div class="breadcrumb" aria-label="面包屑导航"><a href="../index.html">首页</a><span>›</span><a href="../courses.html">课程与指南</a><span>›</span><span>AI 配音</span></div>
+
+  <main class="course-layout">
+    <article class="article-content">
+      <header class="article-hero">
+        <p class="course-label">AI 配音 · YouTube 新手实操指南</p>
+        <h1>AI配音怎么做？新手制作YouTube旁白的7步流程</h1>
+        <p class="article-deck">自然的 AI 旁白不只取决于声音模型。脚本是否适合说、声音有没有授权、发音是否统一，以及人工质检是否完整，都会影响成片。</p>
+        <div class="article-meta"><span>作者：<strong>Fion Tan</strong></span><span>发布方：<strong>Smartech AI Academy</strong></span><span>发布：2026 年 10 月 29 日</span><span>更新：2026 年 10 月 29 日</span></div>
+        <div class="disclosure"><strong>透明说明：</strong>本文使用 AI 辅助资料整理与文字编辑，并由 Fion Tan 根据 YouTube 与 ElevenLabs 官方资料人工核验。内容不保证流量、盈利或商业结果；文中没有付费联盟短链。工具功能、许可与平台政策可能更新，请以官方页面为准。</div>
+      </header>
+
+      <section class="answer-box" aria-labelledby="direct-answer"><h2 id="direct-answer">直接答案</h2><p>新手做 AI 配音，应先确认声音授权，再把脚本改成口语，分段生成、校准发音与情绪，最后用人工试听和平台披露完成发布。</p></section>
+
+      <section>
+        <h2>一、AI 配音适合什么视频？</h2>
+        <p>AI 配音是把文字转换成语音，或用经过授权的声音模型生成旁白。它适合无露脸教程、知识解说、课程导读、多语言版本和需要频繁修正口播的内容。它不会自动让脚本变准确，也不能替代声音授权和人工判断。</p>
+        <div class="benefit-grid"><div><strong>屏幕教程</strong><p>旁白解释操作目的，画面展示真实步骤。</p></div><div><strong>知识解说</strong><p>用一致语气串联资料、图表、案例与来源。</p></div><div><strong>课程导读</strong><p>快速说明学习目标、重点和下一步行动。</p></div><div><strong>多语言版本</strong><p>在权利与翻译核验完成后制作本地化旁白。</p></div></div>
+        <div class="expert-note"><strong>Fion Tan 的建议：</strong>新手先选择许可清楚的声音库或自己的声音，不要从公开视频截取陌生人的声音训练模型。先做 30 秒样音，确认脚本、发音和语气，再生成整条视频。</div>
+      </section>
+
+      <section>
+        <h2>二、制作 AI 旁白需要哪些工具？</h2>
+        <table><thead><tr><th>环节</th><th>可选工具</th><th>主要用途</th><th>人工检查</th></tr></thead><tbody>
+          <tr><td>资料与脚本</td><td>官方来源、ChatGPT</td><td>整理结构、改写口语初稿</td><td>事实、引用、观点和限制</td></tr>
+          <tr><td>声音生成</td><td>ElevenLabs 或同类 TTS</td><td>文字转语音、本人声音克隆</td><td>声音许可、发音与情绪</td></tr>
+          <tr><td>音频与字幕</td><td>CapCut／剪映</td><td>剪辑、降噪、音量、字幕</td><td>错字、断句、同步与峰值</td></tr>
+          <tr><td>音乐与音效</td><td>YouTube Audio Library</td><td>查找版权安全的制作音乐与音效</td><td>署名条件和具体使用条款</td></tr>
+          <tr><td>发布与记录</td><td>YouTube Studio、授权表</td><td>上传、披露、字幕与版本管理</td><td>AI 标签、来源和权利记录</td></tr>
+        </tbody></table>
+        <p class="muted">不要根据“免费”或工具名称推断商业许可。使用前查看当前套餐、声音库与授权条款，并保存许可页面、日期和项目范围。</p>
+      </section>
+
+      <section>
+        <h2>三、从声音授权到发布的 7 步流程</h2>
+
+        <h3><span>01</span>定义旁白的工作任务</h3>
+        <p>先确定观众、视频类型、时长和旁白作用。教程旁白要清楚，故事旁白可以更有情绪，数据解说则要让数字、单位和比较关系容易听懂。</p>
+        <div class="prompt-box"><span>原创提示词 1：旁白创意简报</span><button class="copy-prompt" type="button">复制提示词</button><pre>你是一名 YouTube 旁白导演。请根据以下资料建立 AI 配音创意简报：
+
+目标观众：[填写]
+视频主题与格式：[填写]
+预计时长：[填写]
+希望观众看完后的行动：[填写]
+品牌语气：[填写]
+
+输出：旁白的角色、情绪、语速、信息密度、句子长度、停顿风格、需要避免的语气、3 段试音文本，以及人工验收标准。不要模仿名人或现实人物的独特声音，不要承诺流量或收入。</pre></div>
+
+        <h3><span>02</span>先确认声音权利，再选声音</h3>
+        <p>最稳妥的三种来源是：本人录音、许可清楚的声音库、经过验证的本人声音克隆。公开讲话、播客、直播或影片里的声音不等于可以被克隆。YouTube 也禁止用 AI 声音造成未经授权的冒充。</p>
+        <div class="prompt-box"><span>原创提示词 2：声音权利检查表</span><button class="copy-prompt" type="button">复制提示词</button><pre>请把下面的声音来源整理成发布前权利检查表：
+
+声音来源：[本人录音／工具声音库／本人声音克隆／受托配音员]
+工具或提供者：[填写]
+目标平台与用途：[填写]
+是否商业使用：[是／否／不确定]
+现有授权资料：[粘贴摘要]
+
+按“已确认／需要补充／不应使用”分类检查：声音所有人、明确同意、克隆权限、商业使用、地区、期限、署名、转授权、撤回方式、隐私与数据保存。不要把公开可听、免费或平台披露当作授权；无法确认时写“需咨询权利人或专业人士”。</pre></div>
+
+        <h3><span>03</span>把书面稿改成能说出口的脚本</h3>
+        <p>长句、括号和复杂从句很容易让 AI 读得生硬。每句话只表达一个重点，先说结论，再解释原因；数字和缩写要考虑听众能否一次听懂。</p>
+        <div class="prompt-box"><span>原创提示词 3：口播化改写</span><button class="copy-prompt" type="button">复制提示词</button><pre>请只根据我提供的资料，把文章改写成 [时长] 分钟的中文 YouTube 旁白稿。
+
+目标观众：[填写]
+核心问题：[填写]
+我的原创观点或案例：[填写]
+可靠资料与链接：[粘贴]
+
+要求：前 20 秒直接回答；一句只讲一个重点；用“／”标短停顿、“//”标长停顿；数字、英文、缩写和人名另列发音表；每个事实标注来源；不确定内容写【待核验】；每 20—30 秒安排一个画面变化。禁止虚构经历、数据、引用或效果。</pre></div>
+
+        <h3><span>04</span>建立发音表和声音导演标记</h3>
+        <p>把品牌名、人名、地名、缩写、数字、单位和多音字单独列出。对于模型支持的功能，可使用发音字典、标点、停顿或音频标签；但不同模型的控制方式会变化，必须以当前官方文档为准。</p>
+        <div class="prompt-box"><span>原创提示词 4：发音与表演标注</span><button class="copy-prompt" type="button">复制提示词</button><pre>你是一名中文配音导演。请在不改变事实与原意的前提下，为下面脚本做发音和表演标注：
+
+[粘贴最终脚本]
+
+输出：
+1. 人名、品牌、英文缩写、数字、单位和多音字发音表；
+2. 每段的情绪、语速、重音与停顿；
+3. 容易产生歧义或机器误读的句子及改写；
+4. 30 秒试音段；
+5. 人工试听时必须核对的 10 项。
+
+不要模仿名人或特定现实人物。工具不支持的控制符请标记“需在所用平台核对”。</pre></div>
+
+        <h3><span>05</span>先做样音，再分段生成</h3>
+        <p>用同一段 20—30 秒文字比较两到三个声音或设置，不要同时更换脚本。若使用自己的克隆声音，官方建议优先提供单一说话者、清晰、无背景噪音且风格一致的录音。通过样音后，再按语义段落生成全文。</p>
+        <div class="prompt-box"><span>原创提示词 5：样音比较记录</span><button class="copy-prompt" type="button">复制提示词</button><pre>请为 3 个 AI 旁白样音设计盲听评分表。视频类型：[填写]；目标观众：[填写]；品牌语气：[填写]。
+
+评分维度包括：清晰度、自然停顿、发音准确、情绪匹配、长时间聆听舒适度、品牌一致性、是否像未经授权的现实人物。每项使用 1—5 分并写可观察证据。最后输出选择规则、必须重做的红线，以及一次只调整一个变量的下一轮测试计划。不要因为“更像真人”就自动判定更好。</pre></div>
+
+        <h3><span>06</span>剪辑、混音、字幕与画面同步</h3>
+        <p>删除多余停顿和爆音，但不要把每一口气都剪掉。旁白要压过背景音乐，字幕必须人工校对发音表里的词。音乐与音效应使用自己创作、明确授权，或 YouTube Audio Library 等权利说明清楚的来源。</p>
+        <div class="prompt-box"><span>原创提示词 6：发布前音频质检</span><button class="copy-prompt" type="button">复制提示词</button><pre>请根据我提供的脚本、旁白成品说明、字幕、音乐清单和授权记录，制作 AI 旁白发布前质检表。
+
+按五栏输出：
+1. 内容：事实、引用、数字和断句；
+2. 声音：错读、漏读、爆音、噪音、语速和情绪；
+3. 混音：旁白、音乐、音效的清晰度与突变；
+4. 权利：声音、脚本、音乐、素材和隐私；
+5. 平台：AI 披露、字幕、标题真实性和原创价值。
+
+每项标记“必须修改／建议修改／通过”，说明证据和改法。没有听到成品或看见授权时必须写“待人工确认”。</pre></div>
+
+        <h3><span>07</span>完成披露、留档和发布后复盘</h3>
+        <p>YouTube 当前官方示例把克隆本人声音用于旁白或配音列为通常不必披露的制作辅助；但让真实人物看似说了未说过的话，或制作其他可能误导观众的现实感 AI 内容，必须披露。披露不是使用他人声音的许可，也不能替代原创性。</p>
+        <p>发布时保存脚本版本、声音来源、授权日期、生成设置、发音表和披露判断。发布后记录观众在哪些段落离开、评论里是否出现“听不清”“太快”“像广告”等反馈，下次只改一个主要变量。</p>
+      </section>
+
+      <section>
+        <h2>四、7 天完成第一条 AI 旁白视频</h2>
+        <table><thead><tr><th>时间</th><th>任务</th><th>交付物</th></tr></thead><tbody>
+          <tr><td>第 1 天</td><td>定义观众、主题和旁白任务</td><td>旁白创意简报</td></tr>
+          <tr><td>第 2 天</td><td>选择声音并核对授权</td><td>声音权利检查表</td></tr>
+          <tr><td>第 3 天</td><td>核验资料并改写口播</td><td>来源卡＋旁白稿</td></tr>
+          <tr><td>第 4 天</td><td>建立发音表并制作样音</td><td>发音表＋30 秒样音</td></tr>
+          <tr><td>第 5 天</td><td>分段生成和画面同步</td><td>完整旁白与分镜</td></tr>
+          <tr><td>第 6 天</td><td>混音、字幕和五层质检</td><td>发布候选成片</td></tr>
+          <tr><td>第 7 天</td><td>披露、发布和建立复盘表</td><td>公开视频＋制作记录</td></tr>
+        </tbody></table>
+      </section>
+
+      <section>
+        <h2>五、风险与合规：最常见的 6 个错误</h2>
+        <ul class="mistake-list"><li><strong>从公开视频偷取声音：</strong>能下载或听见，不代表获得克隆、商用或代言授权。</li><li><strong>让 AI 模仿名人：</strong>相似声音可能造成冒充、隐私、肖像或商业误导风险。</li><li><strong>书面稿直接生成：</strong>长句、括号和复杂数字常造成不自然停顿与错误重音。</li><li><strong>一次生成整条长音频：</strong>分段生成更容易修正错读，也更方便与画面同步。</li><li><strong>以为披露等于许可：</strong>AI 标签不能替代声音、脚本、音乐或素材的权利。</li><li><strong>批量复制同一模板：</strong>只有声音变化、缺少原创研究和观点的内容，可能被视为重复或不真实内容。</li></ul>
+        <div class="expert-note"><strong>AI 与联盟披露：</strong>本文由 Fion Tan 为 Smartech AI Academy 独立编写，6 组提示词均为原创。文中工具仅用于教学举例，不构成声音许可、法律意见或收益保证；未来若加入联盟链接，将在链接附近明确标注。</div>
+      </section>
+
+      <section id="faq">
+        <h2>六、常见问题</h2>
+        <div class="faq-list"><details><summary>1. YouTube 视频用了 AI 配音一定要披露吗？</summary><p>不一定。YouTube 当前示例把克隆本人声音用于旁白列为通常不必披露的制作辅助；但如果声音让真实人物看似说了未说过的话，或其他现实感 AI 内容可能误导观众，就应披露。</p></details><details><summary>2. 可以克隆名人或其他创作者的声音吗？</summary><p>不应这样做。公开音频不等于获得克隆、商业使用或代言授权；YouTube 也禁止会误导观众的未经授权冒充。</p></details><details><summary>3. AI 配音视频可以申请 YouTube 盈利吗？</summary><p>使用 AI 工具本身不等于不能盈利，但频道内容仍要原创、真实并提供明显价值；批量、重复、模板化且缺少原创判断的内容可能不符合政策。</p></details><details><summary>4. 怎样让 AI 旁白听起来更自然？</summary><p>先把脚本改成短句和口语，统一发音，用同一段样稿测试语速与稳定性，再分段生成并由人完整试听。克隆时应优先使用单人、清晰且风格一致的录音。</p></details><details><summary>5. 免费 AI 声音可以直接用于商业视频吗？</summary><p>不能只凭免费就判断可商用。应查看声音来源、工具套餐、声音库条款、署名要求、地区与用途限制，并保存使用时的许可记录。</p></details></div>
+      </section>
+
+      <section><h2>结论与下一步</h2><p>一条可信的 AI 旁白，来自“授权清楚的声音＋适合说的脚本＋完整人工质检”，而不是只追求像真人。今天先完成三件事：确定旁白任务、核对声音权利、制作 30 秒样音。样音通过发音、节奏、授权与披露检查后，再生成整条视频。</p></section>
+
+      <section class="sources"><h2>官方来源与延伸阅读</h2><ul>
+        <li><a href="https://support.google.com/youtube/answer/14328491?hl=en" target="_blank" rel="noopener noreferrer">YouTube：生成式 AI 内容披露要求与示例</a></li>
+        <li><a href="https://support.google.com/youtube/blog/424874071/updates-to-ai-content-disclosure-and-labels?hl=en" target="_blank" rel="noopener noreferrer">YouTube：2026 年 AI 内容披露与标签更新</a></li>
+        <li><a href="https://support.google.com/youtube/answer/1311392?hl=en" target="_blank" rel="noopener noreferrer">YouTube：频道盈利、原创与非批量内容政策</a></li>
+        <li><a href="https://support.google.com/youtube/answer/2801947?hl=en" target="_blank" rel="noopener noreferrer">YouTube：冒充与 AI 声音政策</a></li>
+        <li><a href="https://support.google.com/youtube/answer/3376882?hl=en" target="_blank" rel="noopener noreferrer">YouTube：Audio Library 音乐与音效说明</a></li>
+        <li><a href="https://elevenlabs.io/docs/help-center/product/voices/voice-cloning/are-there-any-tips-to-get-good-quality-cloned-voices" target="_blank" rel="noopener noreferrer">ElevenLabs：高质量克隆声音的录音建议</a></li>
+        <li><a href="https://elevenlabs.io/docs/help-center/product/voices/voice-cloning/can-i-create-a-professional-voice-clone-of-someone-elses-voice" target="_blank" rel="noopener noreferrer">ElevenLabs：Professional Voice Clone 身份验证与限制</a></li>
+        <li><a href="https://elevenlabs.io/use-policy" target="_blank" rel="noopener noreferrer">ElevenLabs：禁止未经同意克隆或冒充声音的使用政策</a></li>
+        <li><a href="https://aiyoufeng.com/youtube%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B" target="_blank" rel="noopener noreferrer">选题方向参考：AI有风 YouTube 视频教程栏目（本文结构、文案与提示词均为独立原创）</a></li>
+      </ul></section>
+
+      <section class="author-card"><div class="author-avatar" aria-hidden="true">FT</div><div><span>文章作者</span><h2>Fion Tan · Smartech AI Academy</h2><p>专注 AI 工具、内容自动化与实战培训，把复杂工作流整理成中文新手能够理解、测试和执行的步骤。</p><a href="../courses.html">浏览更多原创教程 →</a></div></section>
+    </article>
+
+    <aside class="article-sidebar" aria-label="文章导航"><div class="toc-card"><strong>文章目录</strong><nav id="tableOfContents"></nav></div><div class="academy-card"><span>Smartech AI Academy</span><strong>先做 30 秒样音</strong><p>先验证声音权利、发音和语气，再生成整条旁白。</p><a href="./ai-youtube-seo.html">阅读 YouTube SEO 指南</a></div></aside>
+  </main>
+
+  <footer class="course-footer"><strong>Smartech AI Academy</strong><span>© 2026 Fion Tan · 教育内容不构成收入、法律或财务保证。</span><a href="../index.html">返回工具导航</a></footer>
+  <button class="back-top" id="courseBackTop" type="button" aria-label="返回顶部">↑</button>
+  <script src="./course.js"></script>
+</body>
+</html>
