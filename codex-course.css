@@ -1,0 +1,69 @@
+/* Codex course detail page */
+body.codex-course-site{background:#f6f7f9;color:#17191f;font-family:Manrope,"Noto Sans SC",sans-serif}
+.codex-course-site *{box-sizing:border-box}
+.codex-course-site h1,.codex-course-site h2,.codex-course-site h3{margin:0;font-family:"Noto Sans SC",sans-serif}
+.codex-breadcrumb{display:flex;gap:11px;align-items:center;max-width:1450px;margin:auto;padding:23px clamp(20px,6vw,90px);color:#747d8a;font-size:12px}
+.codex-breadcrumb a:hover{color:#e85442}
+.codex-hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(330px,.9fr);gap:clamp(30px,4.5vw,70px);align-items:center;max-width:1450px;min-height:570px;margin:auto;padding:38px clamp(20px,6vw,90px) 85px}
+.codex-eyebrow{margin:0 0 18px;color:#e85442;font-size:11px;font-weight:800;letter-spacing:.15em}
+.codex-hero h1{color:#17191f;font-size:clamp(38px,4.1vw,60px);font-weight:800;line-height:1.2;letter-spacing:-.055em}
+.codex-hero h1 em{color:#f05e4a;font-style:normal}
+.codex-hero-copy>p:not(.codex-eyebrow){max-width:690px;margin:24px 0 0;color:#596371;font-size:15px;line-height:1.9}
+.codex-hero-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:25px}
+.codex-hero-tags span{padding:8px 11px;color:#d64d3b;background:#fff1ed;border:1px solid #ffdbd3;border-radius:8px;font-size:11px;font-weight:700}
+.codex-hero-actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:28px}
+.codex-primary,.codex-secondary{display:inline-flex;min-height:49px;align-items:center;justify-content:center;padding:0 20px;border-radius:10px;font-size:13px;font-weight:800}
+.codex-primary{color:#fff!important;background:#ff6b57;box-shadow:0 11px 22px rgba(255,107,87,.2)}
+.codex-primary:hover{background:#e85442}
+.codex-secondary{color:#e85442;background:#fff;border:1px solid #ff9d8f}
+.codex-secondary:hover{background:#fff0ed}
+.codex-hero-photo{position:relative;min-height:420px;align-self:stretch;overflow:hidden;border-radius:24px;background:#222630;box-shadow:0 22px 43px rgba(29,35,48,.14)}
+.codex-hero-photo img{display:block;width:100%;height:100%;min-height:420px;object-fit:cover;object-position:center}
+.codex-hero-photo:after{content:"";position:absolute;inset:40% 0 0;background:linear-gradient(transparent,rgba(12,14,19,.75))}
+.codex-hero-photo>div{position:absolute;z-index:1;right:24px;bottom:22px;left:24px;display:flex;flex-direction:column;gap:5px;color:#fff}
+.codex-hero-photo strong{font-size:24px}.codex-hero-photo span{color:#e5e8ec;font-size:11px;font-weight:700}
+.codex-overview{display:grid;grid-template-columns:minmax(0,.65fr) minmax(0,1.35fr);gap:55px;align-items:center;padding:76px clamp(20px,6vw,90px);background:#fff}
+.codex-overview>div:first-child{max-width:410px;margin-left:auto}
+.codex-overview h2,.codex-pricing-head h2{color:#17191f;font-size:clamp(32px,3.3vw,46px);font-weight:800;line-height:1.2}
+.codex-overview>div:first-child>p:last-child{color:#68717d;font-size:14px;line-height:1.8}
+.codex-overview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;max-width:800px}
+.codex-overview-grid article{min-height:153px;padding:22px;background:#fff7f5;border:1px solid #f3d9d1;border-radius:16px}
+.codex-overview-grid span{color:#f05e4a;font-size:22px;font-weight:800}
+.codex-overview-grid h3{margin:8px 0;color:#17191f;font-size:16px}
+.codex-overview-grid p{margin:0;color:#66707d;font-size:12px;line-height:1.7}
+.codex-curriculum{padding:85px clamp(20px,6vw,90px) 92px;color:#f7f8fa;background:#17191f;scroll-margin-top:66px}
+.codex-curriculum-head,.codex-curriculum .chapter-list{max-width:1260px;margin:auto}
+.codex-curriculum h2{color:#fff;font-size:clamp(34px,3.4vw,48px);font-weight:800}
+.codex-curriculum-head>p:last-child{max-width:770px;margin:16px 0 35px;color:#b9c0cc;font-size:14px;line-height:1.8}
+.codex-curriculum .chapter-list{border-color:rgba(255,107,87,.35)}
+.codex-curriculum .chapter-list details{border-color:rgba(255,107,87,.35)}
+.codex-curriculum .chapter-list summary{grid-template-columns:86px minmax(0,1fr) 30px;padding:21px 0}
+.codex-curriculum .chapter-list summary span,.codex-curriculum .chapter-list summary i{color:#ff7e6b}
+.codex-curriculum .chapter-list summary strong{color:#fff;font:700 clamp(17px,1.8vw,24px)/1.4 "Noto Sans SC",sans-serif}
+.codex-module-content{margin:0 0 22px 86px;padding:18px 22px;background:#222630;border:1px solid #363943;border-radius:13px}
+.codex-module-content p{margin:0 0 13px;color:#e0e5ec;font-size:13px;line-height:1.75}
+.codex-module-content ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 20px;margin:0;padding-left:17px;color:#c2c9d3;font-size:12px;line-height:1.6}
+.codex-module-content li::marker{color:#ff7e6b}
+.codex-pricing-section{padding:85px clamp(20px,6vw,90px) 90px;background:#f6f7f9;scroll-margin-top:66px}
+.codex-pricing-head{max-width:1030px;margin:0 auto 27px}
+.codex-pricing-head p:last-child{max-width:740px;margin:16px 0 0;color:#68717d;font-size:14px;line-height:1.8}
+.codex-pricing-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;max-width:1030px;margin:auto}
+.codex-pricing-grid article{display:flex;flex-direction:column;min-height:265px;padding:28px;background:#fff;border:1px solid #e6dcd9;border-radius:18px;box-shadow:0 15px 34px rgba(29,35,48,.07)}
+.codex-pricing-grid span{color:#e85442;font-size:14px;font-weight:800}
+.codex-pricing-grid strong{margin-top:11px;color:#17191f;font:800 clamp(29px,3vw,42px) Manrope,"Noto Sans SC",sans-serif}
+.codex-pricing-grid p{margin:12px 0 22px;color:#66707d;font-size:13px;line-height:1.7}
+.codex-pricing-grid a{display:inline-flex;min-height:44px;align-items:center;justify-content:center;align-self:flex-start;margin-top:auto;padding:0 16px;color:#fff;background:#ff6b57;border-radius:9px;font-size:12px;font-weight:800}
+.codex-pricing-grid a:hover{background:#e85442}
+.codex-pricing-note{max-width:1030px;margin:20px auto 0;color:#6a7380;font-size:12px;line-height:1.8}
+.codex-next{display:flex;justify-content:space-between;align-items:center;gap:25px;padding:68px clamp(20px,6vw,90px);color:#fff;background:#222630}
+.codex-next h2{color:#fff;font-size:clamp(27px,3vw,42px);font-weight:800}
+.codex-next p:last-child{margin:15px 0 0;color:#c4cbd4;font-size:13px;line-height:1.7}
+.codex-next .codex-primary{flex:0 0 auto}
+.codex-footer{display:flex;gap:24px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:30px clamp(20px,6vw,90px);color:#c4cbd4;background:#17191f}
+.codex-footer strong{color:#fff}.codex-footer nav{display:flex;gap:18px;flex-wrap:wrap}.codex-footer a{font-size:12px}.codex-footer a:hover{color:#ff8b7b}.codex-footer small{font-size:11px}
+.codex-course-site .course-top{position:fixed;right:20px;bottom:20px;z-index:30;display:grid;width:43px;height:43px;place-items:center;color:#fff;background:#ff6b57;border:0;border-radius:50%;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .2s ease}
+.codex-course-site .course-top.visible{opacity:1;pointer-events:auto}
+.codex-course-site :focus-visible{outline:3px solid rgba(255,107,87,.55);outline-offset:3px}
+@media(max-width:980px){.codex-hero{grid-template-columns:1fr;min-height:0}.codex-hero-photo{max-width:690px;min-height:370px;width:100%}.codex-hero-photo img{height:370px;min-height:370px}.codex-overview{grid-template-columns:1fr;gap:26px}.codex-overview>div:first-child{max-width:800px;margin-left:0}}
+@media(max-width:680px){.codex-breadcrumb{flex-wrap:wrap}.codex-hero{padding:25px 20px 65px}.codex-hero h1{font-size:clamp(34px,9.3vw,44px)}.codex-hero-copy>p:not(.codex-eyebrow){font-size:14px}.codex-hero-photo{min-height:290px}.codex-hero-photo img{height:290px;min-height:290px}.codex-overview{padding:68px 20px}.codex-overview-grid{grid-template-columns:1fr}.codex-overview-grid article{min-height:0}.codex-curriculum{padding:70px 20px}.codex-curriculum .chapter-list summary{grid-template-columns:64px minmax(0,1fr) 20px;gap:10px}.codex-curriculum .chapter-list summary strong{font-size:16px}.codex-module-content{margin-left:0;padding:16px}.codex-module-content ul{grid-template-columns:1fr}.codex-pricing-grid{grid-template-columns:1fr}.codex-pricing-section{padding:70px 20px}.codex-next{align-items:flex-start;flex-direction:column;padding:65px 20px}.codex-footer{align-items:flex-start;flex-direction:column}}
+@media(max-width:420px){.codex-hero-actions{align-items:stretch}.codex-primary,.codex-secondary{width:100%}}
