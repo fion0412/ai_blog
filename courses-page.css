@@ -83,6 +83,8 @@
 .offer-schedule{color:#687080}
 .offer-schedule span{color:#ff6b57}
 .offer-actions summary{color:#e85442;background:#fff0ed;border-color:#ff9d8f}
+.offer-actions .offer-detail-link{display:flex;min-height:46px;align-items:center;justify-content:center;padding:9px 10px;color:#e85442;background:#fff0ed;border:1px solid #ff9d8f;border-radius:12px;font-size:13px;font-weight:800;text-align:center}
+.offer-actions .offer-detail-link:hover{background:#ffe3dd;color:#d94735}
 .offer-actions details p{color:#3e424c;border-color:#ffb3a7;box-shadow:0 18px 30px rgba(90,36,30,.16)}
 .offer-book,.one-book{background:#ff6b57;box-shadow:0 8px 16px rgba(255,107,87,.2)}
 .offer-book:hover,.one-book:hover{background:#e85442}
