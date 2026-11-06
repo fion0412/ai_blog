@@ -147,3 +147,7 @@
 .offer-detail-link:hover{background:#ffe2da}
 @media(max-width:760px){.codex-feature{grid-template-columns:1fr}.codex-feature .offer-art{min-height:245px;border-radius:21px 21px 0 0}}
 @media(max-width:420px){.codex-feature .offer-body{padding:22px}.codex-prices strong{font-size:19px}}
+
+/* The ecommerce cover has a light left side; keep its title readable without darkening the photo. */
+.art-ecommerce strong{color:#17191f;text-shadow:0 1px 8px rgba(255,255,255,.8)}
+.art-ecommerce .art-label{color:#ad4838}
