@@ -90,3 +90,15 @@ body.care-site{margin:0;background:#f6f7f9;color:#17191f;font-family:Manrope,"No
 @media(max-width:1100px){.care-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.care-path ol{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.care-hero,.care-demo{grid-template-columns:1fr}.care-hero{padding-top:15px;padding-bottom:68px}.care-photo img{height:310px}.care-path,.care-features,.care-terms{padding-top:65px;padding-bottom:70px}.care-demo{padding-top:65px;padding-bottom:70px}.care-demo-copy{justify-self:start}.care-setup{grid-template-columns:1fr;gap:25px}.care-setup>div{justify-self:start}.care-terms-grid{grid-template-columns:1fr}.care-cta{display:block}.care-cta .care-primary{margin-top:24px}}
 @media(max-width:520px){.care-hero h1{font-size:40px}.care-lead{font-size:14px}.care-grid,.care-path ol{grid-template-columns:1fr}.care-photo img{height:260px}.care-actions a{width:100%}.care-ui-body{grid-template-columns:94px minmax(0,1fr)}.care-ui-sidebar{padding:15px 5px;font-size:9px}.care-ui-sidebar b{font-size:10px}.care-ui-sidebar span{padding:9px 4px}.care-ui-chat{padding:14px}.care-bubble{max-width:95%;font-size:10px}.care-ui-handoff{padding:9px}.care-ui-handoff strong{font-size:9px}.care-ui-handoff small{font-size:8px}.care-footer{display:block}.care-footer nav{margin:18px 0}}
+
+/* User-provided customer service reference images */
+.care-gallery{padding:88px clamp(22px,6vw,96px) 96px;background:#fff}
+.care-gallery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;max-width:1240px;margin:0 auto}
+.care-gallery figure{min-width:0;margin:0;overflow:hidden;border:1px solid #e5e8ed;border-radius:18px;background:#fff;box-shadow:0 14px 36px rgba(31,38,48,.06)}
+.care-gallery img{display:block;width:100%;height:auto;object-fit:contain}
+.care-gallery figcaption{display:grid;gap:6px;padding:18px 20px 20px}
+.care-gallery figcaption strong{color:#222a35;font-size:15px}
+.care-gallery figcaption span,.care-gallery-note{color:#66717f;font-size:12px;line-height:1.75}
+.care-gallery-wide{grid-column:1/-1}
+.care-gallery-note{max-width:1240px;margin:20px auto 0}
+@media(max-width:760px){.care-gallery{padding:65px 22px 70px}.care-gallery-grid{grid-template-columns:1fr}.care-gallery-wide{grid-column:auto}}
