@@ -103,3 +103,30 @@
 .one-benefits h3{color:#17191f}
 .one-benefits p{color:#687080}
 @media(max-width:410px){.one-benefits>div{border-bottom-color:#f0e0dc!important}}
+
+/* Course directory introduction: light layout, existing classroom photography, site coral. */
+.course-hero{grid-template-columns:minmax(0,1.13fr) minmax(0,.87fr);gap:clamp(40px,5vw,90px);align-items:center;min-height:0;padding:78px clamp(24px,7vw,120px) 90px;background:radial-gradient(circle at 72% 18%,rgba(255,107,87,.08),transparent 37%),linear-gradient(140deg,#fff 28%,#fff5f2 100%);color:#17191f;overflow:hidden}
+.course-hero .eyebrow{margin-bottom:22px;color:#e85442;font:800 12px/1.4 "Noto Sans SC",sans-serif;letter-spacing:.14em}
+.course-hero h1{max-width:760px;color:#17191f;font:800 clamp(37px,4.3vw,61px)/1.16 "Noto Sans SC",sans-serif;letter-spacing:-.055em}
+.course-hero h1 em{color:#f05e4a;font-style:normal}
+.course-hero-copy>p{max-width:650px;margin:24px 0 0;color:#606875;font:15px/1.85 "Noto Sans SC",sans-serif}
+.course-hero-promise{display:flex;align-items:center;gap:14px;max-width:650px;margin-top:30px;padding:16px 18px;background:#fff5f2;border:1px solid #ffb7ab;border-radius:16px;box-shadow:0 14px 30px rgba(255,107,87,.09)}
+.course-hero-promise>span{display:grid;flex:0 0 42px;width:42px;height:42px;place-items:center;color:#fff;background:#ff6b57;border-radius:50%;font-size:21px;font-weight:800}
+.course-hero-promise strong{display:block;color:#242630;font-size:15px;line-height:1.4}.course-hero-promise p{margin:4px 0 0;color:#606875;font-size:12px;line-height:1.55}
+.course-hero-actions{display:flex;align-items:center;gap:12px;margin-top:29px;flex-wrap:wrap}
+.course-hero .course-button,.course-hero-secondary{display:inline-flex;min-height:48px;align-items:center;justify-content:center;gap:18px;margin:0;padding:0 20px;border-radius:10px;font-size:13px;font-weight:800}
+.course-hero .course-button{color:#fff;background:#ff6b57;border:1px solid #ff6b57;box-shadow:0 12px 24px rgba(255,107,87,.18)}
+.course-hero .course-button:hover{background:#e85442}
+.course-hero-secondary{color:#e85442;background:#fff;border:1px solid #ff9d8f}.course-hero-secondary:hover{background:#fff0ed}
+.course-hero-media{position:relative;min-width:0;min-height:535px}
+.course-hero-media:before{content:"";position:absolute;z-index:0;inset:22px -18px 8px 24px;background:linear-gradient(160deg,#ffe0d8,#ffc4b8);border-radius:28px}
+.course-hero-photo{position:relative;z-index:1;height:510px;overflow:hidden;background:#f1e9e5;border-radius:26px;box-shadow:0 22px 54px rgba(51,38,40,.15)}
+.course-hero-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 56%}
+.course-hero-stats{position:absolute;z-index:2;right:-5px;bottom:0;left:-18px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.course-hero-stats>div{min-width:0;padding:14px 13px;background:rgba(255,255,255,.96);border:1px solid #eee1de;border-radius:14px;box-shadow:0 15px 28px rgba(29,35,48,.14)}
+.course-hero-stats strong,.course-hero-stats span{display:block}.course-hero-stats strong{color:#f05e4a;font:800 20px/1.2 "Noto Sans SC",sans-serif}.course-hero-stats span{margin-top:4px;color:#656c78;font-size:11px;line-height:1.45}
+.offer-section{scroll-margin-top:66px}
+.mentor-bio{margin-top:32px;padding:22px 24px;background:#222630;border-left:3px solid #ff6b57;border-radius:0 14px 14px 0}
+.mentor-bio strong{display:block;margin-bottom:14px;color:#ff8d7e;font:800 15px "Noto Sans SC",sans-serif}.mentor-bio p{margin:0 0 11px;color:#cbd0da;font:12px/1.8 "Noto Sans SC",sans-serif}.mentor-bio p:last-child{margin-bottom:0}
+@media(max-width:980px){.course-hero{grid-template-columns:1fr;gap:50px;padding:72px 7vw 85px}.course-hero-media{width:min(100%,590px);margin:0 auto}.course-hero h1{max-width:790px}}
+@media(max-width:580px){.course-hero{padding:66px 20px 70px;gap:38px}.course-hero h1{font-size:clamp(34px,9.6vw,44px)}.course-hero-promise{margin-top:25px;padding:14px}.course-hero-copy>p{font-size:14px}.course-hero-actions{align-items:stretch}.course-hero .course-button,.course-hero-secondary{min-height:46px}.course-hero-media{min-height:410px}.course-hero-photo{height:390px;border-radius:18px}.course-hero-media:before{inset:16px -8px 4px 15px;border-radius:21px}.course-hero-stats{right:-3px;left:-3px;gap:5px}.course-hero-stats>div{padding:10px 7px;border-radius:10px}.course-hero-stats strong{font-size:15px}.course-hero-stats span{font-size:9px}}
