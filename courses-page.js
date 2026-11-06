@@ -17,6 +17,19 @@ courseNav.addEventListener("click", (event) => {
   menuButton.textContent = "☰";
 });
 
+document.addEventListener("keydown", (event) => {
+  if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k") {
+    event.preventDefault();
+    window.location.href = "./index.html?search=1";
+  }
+  if (event.key === "Escape" && courseNav.classList.contains("open")) {
+    courseNav.classList.remove("open");
+    document.body.classList.remove("menu-open");
+    menuButton.setAttribute("aria-expanded", "false");
+    menuButton.textContent = "☰";
+  }
+});
+
 document.querySelectorAll(".chapter-list details").forEach((item) => {
   item.addEventListener("toggle", () => {
     if (!item.open) return;

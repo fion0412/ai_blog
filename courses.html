@@ -6,14 +6,14 @@
     <meta name="description" content="Fion Tan 与 Smartech AI Academy 的 AI 实战课程，涵盖 Codex 智能体、内容自动化、AI 视频、办公流程、知识库、网站、小程序和电商应用。" />
     <meta name="keywords" content="Fion Tan,Smartech AI Academy,AI课程,Codex课程,AI智能体,AI自动化,香港AI培训" />
     <meta name="author" content="Fion Tan, Smartech AI Academy" />
-    <meta name="theme-color" content="#07152d" />
+    <meta name="theme-color" content="#17191f" />
     <meta property="og:title" content="AI 实战课程｜Fion Tan · Smartech AI Academy" />
     <meta property="og:description" content="从第一个智能体开始，逐步建立可以真正使用的 AI 工作系统。" />
     <meta property="og:type" content="website" />
     <title>AI 实战课程｜Fion Tan · Smartech AI Academy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./courses-page.css" />
     <script type="application/ld+json">
       {
@@ -40,18 +40,24 @@
   <body class="courses-site">
     <header class="course-header">
       <a class="course-brand" href="./index.html" aria-label="返回 Smartech AI 工具导航">
-        <img src="./assets/smartech-ai-mark.png" alt="" />
-        <span><strong>FION TAN</strong><b>SMARTECH AI</b><small>Think AI. Think Smartech AI</small></span>
+        <span class="course-brand-mark"><img src="./assets/smartech-ai-mark.png" alt="" /></span>
+        <span class="course-brand-copy"><strong>Smartech AI</strong><small>AI Academy</small></span>
       </a>
-      <nav id="courseNav" aria-label="课程页主导航">
-        <a href="./index.html">工具导航</a>
-        <a class="active" href="./courses.html">我的课程</a>
-        <a href="./blog.html">我的Blog</a>
-        <a href="./courses/affiliate-ai-content.html">联盟营销教程</a>
-        <a href="#about-fion">认识 Fion</a>
-        <a href="#course-contact">联系</a>
-      </nav>
-      <button class="course-menu" id="courseMenu" type="button" aria-label="打开导航菜单" aria-expanded="false">☰</button>
+      <div class="course-header-main">
+        <nav id="courseNav" aria-label="主导航">
+          <a href="./index.html#featured">工具导航</a>
+          <a class="active" href="./courses.html" aria-current="page">我的课程</a>
+          <a href="./blog.html">我的Blog</a>
+          <a href="./index.html#featured">选品指南</a>
+          <a href="./courses/affiliate-ai-content.html">联盟营销</a>
+          <a href="./index.html#about">关于我们</a>
+        </nav>
+        <div class="course-header-actions">
+          <a class="course-header-search" href="./index.html?search=1" aria-label="搜索工具、用途或场景"><span aria-hidden="true">⌕</span><span>搜索工具、用途或场景</span><kbd>⌘ K</kbd></a>
+          <a class="course-header-subscribe" href="./index.html#newsletter">订阅精选</a>
+          <button class="course-menu" id="courseMenu" type="button" aria-label="打开导航菜单" aria-controls="courseNav" aria-expanded="false">☰</button>
+        </div>
+      </div>
     </header>
 
     <main>
