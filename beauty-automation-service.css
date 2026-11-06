@@ -1,0 +1,64 @@
+/* Beauty service detail page */
+html{scroll-behavior:smooth}
+body.beauty-site{margin:0;background:#f6f7f9;color:#17191f;font-family:Manrope,"Noto Sans SC",sans-serif}
+.beauty-site *{box-sizing:border-box}
+.beauty-site a{text-decoration:none}
+.beauty-site .course-header{border-top:0}
+.beauty-site h1,.beauty-site h2,.beauty-site h3{margin:0;font-family:"Noto Sans SC",sans-serif}
+.beauty-breadcrumb{display:flex;gap:11px;align-items:center;flex-wrap:wrap;max-width:1440px;margin:auto;padding:25px clamp(22px,6vw,96px);color:#737985;font-size:12px}
+.beauty-breadcrumb a{color:#596170}
+.beauty-breadcrumb a:hover{color:#e85845}
+.beauty-eyebrow{margin:0 0 17px;color:#e85845;font-size:11px;font-weight:800;letter-spacing:.15em}
+.beauty-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,.86fr);gap:clamp(34px,5vw,80px);align-items:center;max-width:1440px;margin:auto;padding:35px clamp(22px,6vw,96px) 96px}
+.beauty-hero-copy{min-width:0}
+.beauty-hero h1{font-size:clamp(38px,4.2vw,64px);line-height:1.19;letter-spacing:-.05em}
+.beauty-hero h1 em{color:#f06450;font-style:normal}
+.beauty-lead{max-width:650px;margin:25px 0 0;color:#5f6876;font-size:16px;line-height:1.95}
+.beauty-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.beauty-primary,.beauty-secondary{display:inline-flex;min-height:50px;align-items:center;justify-content:center;padding:0 22px;border-radius:10px;font-size:13px;font-weight:800}
+.beauty-primary{color:#fff!important;background:#ff6b57;box-shadow:0 12px 24px rgba(255,107,87,.18)}
+.beauty-primary:hover{background:#e85845}
+.beauty-secondary{color:#e85845!important;background:#fff;border:1px solid #ff9d8f}
+.beauty-secondary:hover{background:#fff2ef}
+.beauty-intro-note{max-width:620px;margin:22px 0 0;color:#777e89;font-size:12px;line-height:1.8}
+.beauty-hero-image{overflow:hidden;border-radius:24px;border:1px solid #eadfdb;box-shadow:0 26px 70px rgba(31,38,48,.12)}
+.beauty-hero-image img{display:block;width:100%;height:clamp(370px,35vw,540px);object-fit:cover}
+.beauty-section-head{max-width:710px;margin:0 auto 33px;text-align:center}
+.beauty-section-head h2,.beauty-scope h2,.beauty-cta h2{font-size:clamp(28px,2.8vw,43px);line-height:1.28;letter-spacing:-.04em}
+.beauty-section-head>p:last-child,.beauty-scope p:not(.beauty-eyebrow),.beauty-cta p:not(.beauty-eyebrow){margin:15px 0 0;color:#626c78;font-size:14px;line-height:1.8}
+.beauty-journey{padding:86px clamp(22px,6vw,96px);background:#fff}
+.beauty-journey-list{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;max-width:1240px;margin:0 auto;padding:0;list-style:none}
+.beauty-journey-list li{min-width:0;padding:24px 20px;border:1px solid #f2ddd7;border-radius:16px;background:#fff8f6}
+.beauty-journey-list span{display:block;margin-bottom:25px;color:#f06450;font-size:21px;font-weight:800}
+.beauty-journey-list strong{display:block;font-size:15px;line-height:1.5}
+.beauty-journey-list small{display:block;margin-top:8px;color:#717a86;font-size:12px;line-height:1.6}
+.beauty-modules{padding:88px clamp(22px,6vw,96px) 100px}
+.beauty-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;max-width:1320px;margin:auto}
+.beauty-grid article{min-width:0;padding:26px 25px 27px;background:#fff;border:1px solid #e6e8ec;border-radius:17px;box-shadow:0 10px 25px rgba(31,38,48,.035)}
+.beauty-number{color:#f06450;font-size:11px;font-weight:800;letter-spacing:.06em}
+.beauty-grid h3{margin-top:14px;font-size:18px;line-height:1.4}
+.beauty-grid ul{margin:17px 0 0;padding-left:18px;color:#5e6875;font-size:13px;line-height:1.8}
+.beauty-grid li+li{margin-top:8px}
+.beauty-grid li::marker{color:#ff6b57}
+.beauty-scope{display:grid;grid-template-columns:.8fr 1.2fr;gap:42px;align-items:center;padding:76px clamp(22px,6vw,96px);background:#fff}
+.beauty-scope>div,.beauty-scope ul{max-width:590px}
+.beauty-scope>div{justify-self:end}
+.beauty-scope ul{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.beauty-scope li{padding:16px 18px 16px 44px;position:relative;border-radius:11px;background:#fff3ef;color:#4e5865;font-size:13px;line-height:1.65}
+.beauty-scope li::before{content:'✓';position:absolute;left:18px;top:15px;color:#f06450;font-weight:900}
+.beauty-conditions{padding:86px clamp(22px,6vw,96px)}
+.beauty-conditions-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;max-width:1240px;margin:auto}
+.beauty-conditions-grid p{margin:0;padding:23px 25px;background:#fff;border:1px solid #e6e8ec;border-radius:15px;color:#5e6875;font-size:13px;line-height:1.85}
+.beauty-conditions-grid strong{display:block;margin-bottom:8px;color:#191e27;font-size:15px}
+.beauty-cta{display:flex;gap:30px;justify-content:space-between;align-items:center;padding:65px clamp(22px,6vw,96px);background:#17191f}
+.beauty-cta>div{max-width:750px}
+.beauty-cta h2{color:#fff}
+.beauty-cta p:not(.beauty-eyebrow){color:#bfc4cd}
+.beauty-cta .beauty-primary{flex:none}
+.beauty-footer{display:flex;gap:20px;justify-content:space-between;align-items:center;flex-wrap:wrap;padding:28px clamp(22px,6vw,96px);background:#101217;color:#fff;font-size:12px}
+.beauty-footer nav{display:flex;gap:21px;flex-wrap:wrap}
+.beauty-footer a,.beauty-footer small{color:#bbc0ca}
+.beauty-footer a:hover{color:#ff806f}
+@media(max-width:1100px){.beauty-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.beauty-journey-list{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:760px){.beauty-hero{grid-template-columns:1fr;padding-top:15px;padding-bottom:68px}.beauty-hero-image img{height:310px}.beauty-journey,.beauty-modules,.beauty-conditions{padding-top:65px;padding-bottom:70px}.beauty-journey-list{grid-template-columns:repeat(2,minmax(0,1fr))}.beauty-scope{grid-template-columns:1fr;gap:25px}.beauty-scope>div{justify-self:start}.beauty-conditions-grid{grid-template-columns:1fr}.beauty-cta{display:block}.beauty-cta .beauty-primary{margin-top:24px}}
+@media(max-width:520px){.beauty-hero h1{font-size:37px}.beauty-lead{font-size:14px}.beauty-grid,.beauty-journey-list{grid-template-columns:1fr}.beauty-hero-image img{height:260px}.beauty-hero-actions a{width:100%}.beauty-footer{display:block}.beauty-footer nav{margin:18px 0}.beauty-scope li{font-size:12px}}

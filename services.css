@@ -53,6 +53,8 @@ body.services-site{background:#f5f6f8;color:#17191f;font-family:Manrope,"Noto Sa
 .service-actions details p{margin:9px 0 0;padding:13px 14px;color:#4f5865;background:#fff7f5;border:1px solid #ffdbd3;border-radius:10px;font-size:12px;line-height:1.65}
 .service-actions details[open]+a{grid-column:1/-1}
 .service-actions>a{color:#fff;background:#ff6b57;box-shadow:0 8px 16px rgba(255,107,87,.2)}
+.service-actions>a.service-detail-link{color:#e85442;background:#fff1ed;border:1px solid #ff9d8f;box-shadow:none}
+.service-actions>a.service-detail-link:hover{background:#ffe4dd;color:#d64f3d}
 .services-footnote{max-width:1400px;margin:25px auto 0;color:#68717d;font-size:12px;line-height:1.8}
 .services-process{padding:86px clamp(20px,5vw,86px) 90px;background:#fff;text-align:center}
 .services-process h2{font-size:clamp(30px,3.3vw,44px);font-weight:800}
