@@ -19,8 +19,10 @@
         <span class="brand-mark" aria-hidden="true"><img src="./assets/smartech-ai-mark.png" alt="" /></span>
         <span><strong>Smartech AI</strong><small>AI Academy</small></span>
       </a>
+      <button class="sidebar-close" id="sidebarClose" type="button" aria-label="关闭分类菜单">×</button>
       <nav class="side-nav" id="sideNav">
         <a class="active" href="#featured" data-category="all"><span class="nav-icon">★</span>精选工具</a>
+        <a href="./courses.html"><span class="nav-icon">▣</span>我的课程</a>
         <a href="./blog.html"><span class="nav-icon">▤</span>我的Blog</a>
         <a href="./services.html"><span class="nav-icon">✦</span>AI 服務</a>
         <a href="#partners"><span class="nav-icon">◇</span>寻找合作伙伴</a>
@@ -36,10 +38,11 @@
       <div class="sidebar-note"><span class="tiny-plane">➤</span><p>好工具，<br />让全球机会更近一步。</p></div>
       <div class="sidebar-footer">Smartech AI · 2026</div>
     </aside>
+    <button class="sidebar-backdrop" id="sidebarBackdrop" type="button" aria-label="关闭分类菜单" hidden></button>
 
     <div class="page-shell" id="top">
       <header class="topbar">
-        <button class="mobile-menu" id="menuButton" aria-label="打开分类菜单" aria-expanded="false">☰</button>
+        <button class="mobile-menu" id="menuButton" type="button" aria-label="打开分类菜单" aria-controls="sidebar" aria-expanded="false">☰</button>
         <nav class="top-nav" aria-label="主导航">
           <a class="active" href="#featured">工具导航</a><a href="./courses.html">我的课程</a><a href="./services.html">AI 服務</a><a href="./blog.html">我的Blog</a><a href="#partners">合作伙伴</a><a href="./courses/affiliate-ai-content.html">联盟营销</a><a href="#about">关于我们</a>
         </nav>
@@ -102,8 +105,8 @@
         <div id="categorySections"></div>
 
         <section class="newsletter" id="newsletter">
-          <div class="mail-illustration" aria-hidden="true">✉</div><div><h2>每周一封，精选真正值得用的工具</h2><p>不追热点，不发垃圾邮件，只分享经过筛选的工具与实战方法。</p></div>
-          <form id="newsletterForm"><label class="sr-only" for="emailInput">邮箱地址</label><input id="emailInput" type="email" placeholder="请输入你的邮箱地址" required /><button type="submit">免费订阅</button></form>
+          <div class="mail-illustration" aria-hidden="true">✉</div><div><h2>获取精选工具资讯</h2><p>填写邮箱后将打开 WhatsApp；请发送预填消息，向我们申请订阅。</p></div>
+          <form id="newsletterForm"><label class="sr-only" for="emailInput">邮箱地址</label><input id="emailInput" type="email" placeholder="请输入你的邮箱地址" required /><button type="submit">WhatsApp 申请订阅</button></form>
           <p class="form-message" id="newsletterMessage" role="status"></p>
         </section>
 
@@ -130,5 +133,6 @@
     <div class="tool-dialog" id="toolDialog" role="dialog" aria-modal="true" aria-labelledby="toolDialogTitle" hidden><div class="dialog-backdrop" data-close-tool></div><article class="tool-detail" id="toolDetail"></article></div>
     <button class="back-to-top" id="backToTop" type="button" aria-label="返回顶部">↑</button>
     <script src="./app.js"></script>
+    <script src="./home-actions.js"></script>
   </body>
 </html>
